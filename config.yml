@@ -1,0 +1,43 @@
+title: c3 Community Partners
+description: Codexstone • DAO • Oracle • BreathTech • Ledger
+url: https://c3communitypartners.xyz
+theme: minima
+
+# Build
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: default
+
+# Collections for book chapters
+collections:
+  gates:
+    output: true
+    permalink: /gates/:name/
+  epithets:
+    output: true
+    permalink: /epithets/:name/
+
+# Include assets
+sass:
+  style: compressed
+
+# Navigation data file
+nav_data: navigation
+
+# Social (optional – adjust as needed)
+author:
+  name: c3 Codex
+  email: hello@c3communitypartners.xyz
+  links:
+    - https://paragraph.com/@c3codex
+    - https://zora.co/collect
+    - https://warpcast.com/c3codex
